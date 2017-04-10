@@ -1,8 +1,8 @@
-struct TestLib {
+public struct TestLib {
 
     var text = "Hello, World!"
 }
 
-func hello() {
+public func hello() {
     print("hello")
 }
