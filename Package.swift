@@ -5,6 +5,6 @@ import PackageDescription
 let package = Package(
     name: "TestLib",
     dependencies: [
-      .Package(url: "https://github.mit.edu/proteus/CEnergymon.git", majorVersion: 1)
+      .Package(url: "git@github.mit.edu:proteus/CEnergymon.git", majorVersion: 1)
     ]
 )
